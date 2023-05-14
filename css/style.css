@@ -76,8 +76,22 @@ main{
     width: calc((100% / 8));
     margin: 0 3px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
     
 }
+
+.user{
+    background-color: #727980;
+    height: 20px;
+    width: 100px;
+    font-size: small;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+    
+
 
 
 
@@ -89,10 +103,55 @@ main{
 */
 
 footer{
-    background-color: #3B434B;
+    background-color: #32363a;
     height: 80px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
+
+.footer-col-1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer-col-1 i{
+    padding: 10px 20px 0 20px;
+}
+
+.footer-col-1 span{
+    font-size: 20px;
+    text-align: center;
+    padding-right: 10px;
+}
+
+
+
+
+
+.footer-col-2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer-col-2 i{
+    padding: 10px 20px 0 20px;
+}
+
+
+.footer-col-3{
+    background-color: #3B434B;
+    width: 120px;
+}
+
+
+
+
+
+
+
 
 
 
