@@ -113,17 +113,19 @@ footer{
 .footer-col-1{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
 }
+
 
 .footer-col-1 i{
     padding: 10px 20px 0 20px;
 }
 
 .footer-col-1 span{
-    font-size: 20px;
+    font-size: 12px;
     text-align: center;
-    padding-right: 10px;
+    padding-right: 66px;
+    padding-left: 10px;
 }
 
 
@@ -133,17 +135,28 @@ footer{
 .footer-col-2{
     color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    max-width: 600px;
+    margin: 0 auto;
+    
 }
 
 .footer-col-2 i{
     padding: 10px 20px 0 20px;
 }
 
+.footer-col-2 span{
+    font-size: 12px;
+    padding-left: 11px;
+}
+
 
 .footer-col-3{
     background-color: #3B434B;
     width: 120px;
+    text-align: center;
+    color: red;
+    padding-top: 30px;
 }
 
 
